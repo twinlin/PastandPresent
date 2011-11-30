@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">前世鑑定書 </string>
+    <string name="pho_num">請輸入你的西元生日共八碼,例:19780923</string>
+    <string name="num_btn">確定</string>
+    <string name="home_uri">http://twinlin.blogspot.com</string>
+    <string name="error_title">輸入格式錯誤</string>
+    <string name="error_msg">請重新輸入西元生日共八碼</string>
+    <string name="input_msg">請輸入西元生日共八碼</string>
+    <string name="about_title">前世鑑定書v1.0</string>
+    <string name="about_msg">版權屬於TwinLin工作室</string>
+    <string name="home_label">官網</string>
+    <string name="ok_label">確認</string>
+
+</resources>

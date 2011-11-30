@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myapp="schemas.android.com/apk/res/com.android.pastandpresent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+   
+     >
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pho_num"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFF0000"
+        android:textSize="15dip" />
+
+    <EditText
+        android:id="@+id/pnumber"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_msg"
+        android:inputType="number|phone"
+        android:textSize="15dip" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="@string/num_btn" />
+
+    <ImageView
+    android:src="@drawable/a"
+   android:visibility="gone"
+        android:id="@+id/suggest"
+        android:layout_width="306dp"
+        android:layout_height="275dp"
+        android:layout_weight="0.49" />
+   
+</LinearLayout>
